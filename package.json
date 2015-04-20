@@ -12,7 +12,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "octools": "index.js"
+    "oltools": "index.js"
   },
   "author": "L.Maitre <lmaitre@effervens.com>",
   "license": "ISC",

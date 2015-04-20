@@ -18,7 +18,7 @@ var OlTools = require('./lib/oltools.js');
 
 var oltools = new OlTools();
 
-octools.store(program.store);
+oltools.store(program.store);
 if (program.verbose) {
 	console.log('Store is ' + oltools.store);
 }
