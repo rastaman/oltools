@@ -14,6 +14,12 @@ Then, proceed to install : checkout the project with git and run :
 
 The default store file is located at $HOME/.oltools/store.json
 
+## Example
+
+    oltools install <mytoken>
+    oltools refresh
+    oltools generate all dns
+    
 ## Help
 
   Usage: oltools \[options\] \[command\]
