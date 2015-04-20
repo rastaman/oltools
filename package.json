@@ -1,0 +1,24 @@
+{
+  "name": "oltools",
+  "version": "1.0.0",
+  "description": "Online.fr command line tools",
+  "main": "oltools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rastaman/oltools.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "octools": "index.js"
+  },
+  "author": "L.Maitre <lmaitre@effervens.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.5.1",
+    "printf": "^0.2.0",
+    "request": "^2.51.0"
+  }
+}
